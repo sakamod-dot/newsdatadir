@@ -10,6 +10,8 @@ Conda環境を作成して有効化します。
 conda env create -f environment.yml
 conda activate newsdatadir
 ```
+東証上場銘柄コード一覧をダウンロードしCSVに書き換えておきます。
+[東証上場銘柄コード一覧](https://www.jpx.co.jp/markets/statistics-equities/misc/01.html)
 
 `.env.example`を参考に`.env`を作成し、利用環境に合わせて値を設定してください。`.env`は機密情報やマシン固有の設定を含むため、Gitにはコミットしないでください。
 
