@@ -1,0 +1,15 @@
+name: newsdatadir
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - feedparser
+  - requests
+  - pydantic
+  - pandas
+  - python-dotenv
+  - pip
+  - pip:
+    - ollama
+    - rapidfuzz
+    - yfinance
